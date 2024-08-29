@@ -1,0 +1,167 @@
+
+.dashboard-container {
+  display: grid;
+  grid-template-columns: 550px 1fr; 
+  height: 100vh;
+  padding: 0px;
+  margin: 10px;
+  
+}
+
+.dashboard {
+  grid-column: 1;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  height: 100vh;
+  width: 250px;
+  padding: 20px;
+  margin: 5px;
+  
+}
+
+.content {
+  grid-column: 2; 
+  padding: 20px;
+  overflow-y: auto; 
+}
+
+.vertical{
+  padding: 20px;
+  background-color: blue;
+  border: 1px solid #ddd;
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+}
+.vertical:hover{
+  background-color: white;
+  color: blue;
+}
+a{
+  text-decoration: none;
+}
+.top{
+  
+  height: 80px;
+  align-content: center;
+  background-color: rgb(84, 84, 241);
+  text-align: center;
+  font-size: 50px;
+  color: white;
+  font-family: 600;
+  width: 100%;
+}
+.top:hover{
+    background-color: white;
+    color: blue;
+}
+.hicet{
+  width: 300px;
+}
+.content{
+  
+}
+p{
+  font-size: 50px;
+  position: relative;
+  right:20px;
+}
+.att{
+  width: 280px;
+  height: 170px;
+  gap: 10px;
+  background-color:yellow;
+  color: rgb(7, 7, 7);
+  font-size: 30px;
+  border-radius: 10px;
+  
+}
+.att1{
+  width: 150px;
+  height: 100px;
+  position: relative;
+  top: 40px;
+}
+.content{
+  display: flex;
+  gap: 30px;
+  align-content: center;
+  position: relative;
+  right: 100px;
+}
+.att2{
+  background-color: red;
+  width: 280px;
+  height: 170px;
+  color: rgb(10, 10, 10);
+  font-size: 30px;
+  border-radius: 10px;
+}
+.att3{
+  background-color: yellow;
+  width: 280px;
+  height: 170px;
+  color: rgb(12, 12, 12);
+  font-size: 30px;
+  border-radius: 10px;
+}
+.att:hover{
+  background-color: rgb(9, 9, 9);
+  color: white;
+}
+.att3:hover{
+  background-color: rgb(9, 9, 9);
+  color: white;
+}
+.att2:hover{
+  background-color: rgb(9, 9, 9);
+  color: white;
+}
+
+.box:hover {
+  background-color: #ccc;
+}
+
+
+.box-container {
+  grid-auto-flow: row dense;
+  position: relative;
+  left: 600px;
+  bottom: 640px;
+}
+
+
+.box-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.box {
+  background-color: #f7f7f7;
+  padding: 20px;
+  border: 1px solid #ddd;
+  transition: background-color 0.3s ease;
+  flex-basis: 200px; 
+  
+}
+
+.box:hover {
+  background-color: #ccc;
+}
+
+.student{
+  position: relative;
+  top: 30px;
+  background-color: blue;
+  color: white;
+  left: 100px;
+}
+.student-image{
+  width: 300px;
+  height: 400px;
+  position: relative;
+  top: 80px;
+  left: 100px;
+}
